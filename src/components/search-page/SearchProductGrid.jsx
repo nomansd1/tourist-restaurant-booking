@@ -46,7 +46,7 @@ export default function SearchProductGrid() {
                                         {CategoryFilters.map((item, index) => (
                                             <div key={index} className="flex items-center text-sm font-medium">
                                                 <input type="checkbox" id={`filterCategory${index}`} className="mr-3 h-5 w-5 cursor-pointer rounded-sm border border-solid bg-[#f2f2f7]" />
-                                                <label className="inline-block cursor-pointer select-none" for={`filterCategory${index}`}>{item.title}</label>
+                                                <label className="inline-block cursor-pointer select-none" htmlFor={`filterCategory${index}`}>{item.title}</label>
                                             </div>
                                         ))}
                                     </div>
@@ -59,7 +59,7 @@ export default function SearchProductGrid() {
                                         {ratingFilters.map((item, index) => (
                                             <div key={index} className="flex items-center text-sm font-medium">
                                                 <input type="checkbox" id={`filterRating${index}`} className="mr-3 h-5 w-5 cursor-pointer rounded-sm border border-solid bg-[#f2f2f7]" />
-                                                <label className="inline-block cursor-pointer select-none" for={`filterRating${index}`}>{item.title}</label>
+                                                <label className="inline-block cursor-pointer select-none" htmlFor={`filterRating${index}`}>{item.title}</label>
                                             </div>
                                         ))}
                                     </div>               
@@ -73,7 +73,7 @@ export default function SearchProductGrid() {
                                         {priceFilters.map((item, index) => (
                                             <div key={index} className="flex items-center text-sm font-medium">
                                                 <input type="checkbox" id={`filterPrice${index}`} className="mr-3 h-5 w-5 cursor-pointer rounded-sm border border-solid bg-[#f2f2f7]" />
-                                                <label className="inline-block cursor-pointer select-none" for={`filterPrice${index}`}>{item.title}</label>
+                                                <label className="inline-block cursor-pointer select-none" htmlFor={`filterPrice${index}`}>{item.title}</label>
                                             </div>
                                         ))}
                                     </div>

@@ -37,7 +37,7 @@ export default function SearchSidebar() {
             <div className="w-[300px] h-full overflow-auto border-r-2 border-r-gray-300">
                 <button onClick={handleCoseSidebar} className="absolute top-5 right-10">
                     <svg className="w-4 h-4 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                     </svg>
                 </button>
                 <div className="mx-auto w-full px-2 py-4 mt-4">
@@ -55,12 +55,12 @@ export default function SearchSidebar() {
                                     {CategoryFilters.map((item, index) => (
                                         <div key={index} className="flex items-center text-sm font-medium">
                                             <input type="checkbox" id={`filterCategory${index}`} className="mr-3 h-5 w-5 cursor-pointer rounded-sm border border-solid bg-[#f2f2f7]" />
-                                            <label className="inline-block cursor-pointer select-none" for={`filterCategory${index}`}>{item.title}</label>
+                                            <label className="inline-block cursor-pointer select-none" htmlFor={`filterCategory${index}`}>{item.title}</label>
                                         </div>
                                     ))}
                                 </div>
                             </div>
-                            <div class="mb-3 mt-3 h-px w-full bg-[#d9d9d9]"></div>
+                            <div className="mb-3 mt-3 h-px w-full bg-[#d9d9d9]"></div>
                             {/* <!-- Rating --> */}
                             <div className="flex flex-col gap-6">
                                 <p className="font-semibold text-sm">Rating</p>
@@ -68,7 +68,7 @@ export default function SearchSidebar() {
                                     {ratingFilters.map((item, index) => (
                                         <div key={index} className="flex items-center text-sm font-medium">
                                             <input type="checkbox" id={`filterRating${index}`} className="mr-3 h-5 w-5 cursor-pointer rounded-sm border border-solid bg-[#f2f2f7]" />
-                                            <label className="inline-block cursor-pointer select-none" for={`filterRating${index}`}>{item.title}</label>
+                                            <label className="inline-block cursor-pointer select-none" htmlFor={`filterRating${index}`}>{item.title}</label>
                                         </div>
                                     ))}
                                 </div>
@@ -82,7 +82,7 @@ export default function SearchSidebar() {
                                     {priceFilters.map((item, index) => (
                                         <div key={index} className="flex items-center text-sm font-medium">
                                             <input type="checkbox" id={`filterPrice${index}`} className="mr-3 h-5 w-5 cursor-pointer rounded-sm border border-solid bg-[#f2f2f7]" />
-                                            <label className="inline-block cursor-pointer select-none" for={`filterPrice${index}`}>{item.title}</label>
+                                            <label className="inline-block cursor-pointer select-none" htmlFor={`filterPrice${index}`}>{item.title}</label>
                                         </div>
                                     ))}
                                 </div>

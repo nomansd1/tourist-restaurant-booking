@@ -13,7 +13,7 @@ export default function SearchJumbotron() {
             <div className="max-w-screen-xl mx-auto px-4 md:px-7 w-full py-4 md:py-7 flex items-center justify-between">
                 <h1 className="text-lg font-medium hidden md:flex">145 restaurants in Convent Street 2983</h1>
                 <div className="flex items-center w-full md:w-fit">
-                    <label for="simple-search" className="sr-only">Search</label>
+                    <label htmlFor="simple-search" className="sr-only">Search</label>
                     <div className="relative w-full">
                         <input type="text" id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:border-[#f17741] focus:outline-none focus:ring-[#f17741] block w-full p-2.5 " placeholder="Search branch name..." required />
                     </div>
