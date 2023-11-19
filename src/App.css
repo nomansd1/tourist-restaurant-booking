@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins';
+}
+
+button,
+a {
+    transition: all .3s ease;
+}
+
+.product__grid .slick-list {margin: 0 0 0 10px !important;}
+.product__grid .slick-slide>div {padding: 0 5px;}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #f17741 !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+}
+
+.react-tabs__tab--selected {
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: 3px solid #EE5511 !important;
+}

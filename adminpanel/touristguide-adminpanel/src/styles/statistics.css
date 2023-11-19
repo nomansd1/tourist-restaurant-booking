@@ -1,0 +1,40 @@
+.card-heading{
+font-family: "Poppins";
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+}
+.card-text{
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+}
+.status{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    font-family : "Poppins";
+}
+.statistics__container{
+    height: 200px;
+}
+/* For screens with a width less than or equal to 600px (typically mobile devices) */
+@media only screen and (max-width: 768px) {
+    .statistics__container {
+      height: 800px;
+      background-color: lightblue;
+    }
+  }
+  /* For screens with a width between 601px and 1024px (typical tablets) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .statistics__container {
+      height: 200px;
+      background-color: lightblue;
+    }
+  }

@@ -1,0 +1,14 @@
+.usericon__button:hover,
+.edit__button:hover,
+.delete__button:hover,
+.download__button:hover,
+.adduser__button:hover,
+.export__button:hover {
+    background-color: #f4f0ec;
+    opacity: 0.5;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}

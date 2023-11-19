@@ -1,0 +1,80 @@
+.image-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: rgb(227, 227, 227);
+  border: 2px dashed rgb(115, 115, 115);
+  width: 228px;
+  height: 194px;
+}
+
+.image-upload > input {
+  display: none; /* Make it invisible */
+}
+
+.inner__border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 26px;
+  border-radius: 6px;
+  border: 2px solid rgb(115, 115, 115);
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+/* Style the label as a button when the input is focused */
+.image-upload > input:focus + .inner__border {
+  border-color: blue; /* Change the border color when focused */
+}
+.text-area{
+    width: 90%;
+    border-radius: 5px;
+}
+.caption{
+    margin: 0px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.textarea__textbox{
+    font: inherit;
+    outline: none;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 100;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: auto;
+    margin: 0px;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    background-color: #f4f0ec;
+    border:0px;
+    outline: none;
+    border-radius: 20px;
+    height: 160px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.tutorial__button
+{
+width: 100%;
+height: 60px;
+background: linear-gradient(113.97deg, rgb(20, 25, 37) 6.57%, rgb(32, 62, 84) 103.78%);
+font-family: "Poppins";
+font-weight: 600;
+color: white;
+outline: 0px;
+border: 0px;
+border-radius: 90px;
+cursor: pointer;
+margin-bottom: 50px;
+}
+.tutorial__button:hover {
+  filter: brightness(200%);
+  transition: ease-in 0.2s;
+ }

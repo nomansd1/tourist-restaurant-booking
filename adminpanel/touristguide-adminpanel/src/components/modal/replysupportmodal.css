@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .reactmodal__container {
+      max-width: 400px; 
+      margin-left: 40px;
+    }
+  }
+  /* Media query for tablets (landscape) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .reactmodal__container {
+    max-width: 500px; 
+    margin-left: 20px;
+  }
+}
+
+/* Media query for smaller desktops */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .reactmodal__container {
+    max-width: 600px; 
+    margin-left: auto;
+  }
+}
+
+/* Media query for larger desktops */
+@media screen and (min-width: 1441px) {
+  .reactmodal__container {
+    max-width: 800px; 
+    margin-left: auto;
+  }
+}

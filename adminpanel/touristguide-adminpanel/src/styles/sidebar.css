@@ -1,0 +1,26 @@
+button {
+  right: 20px;
+}
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.15;
+}
+a,
+.fpTHfu {
+  background-color: #1E374B !important;
+}
+a:hover {
+  background-color: #203E54 !important;
+}
+a:not(:first-child):not(:nth-child(2)) {
+  background-color: #1E374B !important;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Poppins";
+} 

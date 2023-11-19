@@ -1,0 +1,25 @@
+/* Define a media query for screens with a maximum width of 600px (adjust the value as needed) */
+.text{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 12;
+}
+.card__title{
+  padding-top:15px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+    .card-section {
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: baseline;
+    }
+}
+.addqrcode__button:hover,.bulkexport__button:hover{
+  background-color: #f4f0ec;
+  opacity:0.5;
+  border-radius:100px;
+  cursor: pointer;
+}

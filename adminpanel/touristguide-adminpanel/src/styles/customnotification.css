@@ -1,0 +1,26 @@
+.campaign__button
+{
+    width: 201px;
+    height: 40px;
+    background: linear-gradient(113.97deg, rgb(20, 25, 37) 6.57%, rgb(32, 62, 84) 103.78%);
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+    outline: 0px;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.campaign__button:hover {
+    filter: brightness(200%);
+    transition: ease-in 0.2s;
+   }
+   @media (max-width: 768px) {
+    .campaign__button {
+        width: 190px;
+        height: 30px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
