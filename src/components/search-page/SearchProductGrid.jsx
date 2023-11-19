@@ -1,5 +1,5 @@
 import SearchSidebar from "./SearchSidebar"
-import Product from '../Home/Product'
+import {Product} from '../home/index'
 
 export default function SearchProductGrid() {
 
