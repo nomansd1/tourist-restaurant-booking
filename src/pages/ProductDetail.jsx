@@ -1,4 +1,4 @@
-import { Header, Footer } from '../components/Home/index'
+import { Header, Footer } from '../components/home/index'
 import { DetailBanner, DetailInfo } from '../components/product-detail/index'
 
 export default function ProductDetail() {
