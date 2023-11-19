@@ -1,4 +1,4 @@
-import { Banner, CategoryMenu, ExcitingOffers, Footer, ProductGrid, SubBanner } from "../components/Home/index";
+import { Banner, CategoryMenu, ExcitingOffers, Footer, ProductGrid, SubBanner } from "../components/home/index";
 
 export default function HomePage(){
     return (
